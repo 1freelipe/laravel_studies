@@ -15,6 +15,12 @@ class MainController extends Controller {
         // return view('home', $data);
 
         // Passing datas from method with
-        return view('home')->with('name', 'Felipe Rodrigues Teixeira')->with('DDD', '19');
+        // return view('home')->with('name', 'Felipe Rodrigues Teixeira')->with('DDD', '19');
+
+        // Passing datas from method compact
+        // $name = 'Felipe Rodrigues Teixeira';
+        // $DDD = '19';
+
+        // return view('home', compact('name', 'DDD'));
     }
 }
