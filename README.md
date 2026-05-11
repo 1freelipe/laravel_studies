@@ -1,8 +1,16 @@
-# Laravel Studies
-Este projeto foi criado no contexto do curso
-Laravel Completo - Framework, ecossistema e Projetos Web (Udemy)
-@João Ribeiro
+## Laravel Studies
 
-# Instalação
-Abrir o terminal e executar o seguinte comando:
-composer update
+1. Learning dynamics routes and parameters rules from core of Laravel.
+```
+- Routes
+- Routes with Controllers
+- Routes, Controllers with Constraints
+- Single actions
+- Middlewares and Routes
+```
+
+2. Learning views and the basic of Blade Template.
+```
+- How Create routes with views
+- How transfer datas from controllers
+```
