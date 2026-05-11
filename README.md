@@ -13,4 +13,5 @@
 ```
 - How Create routes with views
 - How transfer datas from controllers
+- Type declaration for methods
 ```
