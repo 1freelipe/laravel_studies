@@ -7,6 +7,11 @@ use Illuminate\View\View;
 
 class MainController extends Controller {
     public function showView(): View {
-        return view('home');
+        $data = [
+            'name' => 'Felipe Rodrigues',
+            'DDD' => '19'
+        ];
+
+        return view('home', $data);
     }
 }
