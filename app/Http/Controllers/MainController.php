@@ -22,5 +22,14 @@ class MainController extends Controller {
         // $DDD = '19';
 
         // return view('home', compact('name', 'DDD'));
+
+        $data = [
+            'value' => 100,
+            'cities' => ['Los Angeles', 'New York', 'Massachussets'],
+            'names' => ['Felipe', 'Rodrigues'],
+            'index' => 1
+        ];
+
+        return view('home', $data);
     }
 }
