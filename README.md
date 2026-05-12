@@ -14,4 +14,8 @@
 - How Create routes with views
 - How transfer datas from controllers
 - Type declaration for methods
+- Learning for CSRF token in POST forms
+- Injection PHP codes from blade template
+- Logic programing from blade template
+- POO in Laravel and blade
 ```
